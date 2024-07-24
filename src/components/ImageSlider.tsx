@@ -26,7 +26,7 @@ const ImageSlider = ({ urls }: ImageSliderProps) => {
   })
 
   useEffect(() => {
-    {/*@ts-expect-error */}
+    {/*@ts-ignore */}
     swiper?.on('slideChange', ({ activeIndex }) => {
       setActiveIndex(activeIndex)
       setSlideConfig({
@@ -78,13 +78,13 @@ const ImageSlider = ({ urls }: ImageSliderProps) => {
       <Swiper
       
         pagination={{
-          //@ts-expect-error
+          //@ts-ignore
           renderBullet:  (_, className) => {
             
             return `<span class="rounded-full transition ${className}"></span>`
           },
         }}
-        //@ts-expect-error
+        //@ts-ignore
         onSwiper={(swiper) => setSwiper(swiper)}
         spaceBetween={50}
         modules={[Pagination]}

@@ -19,7 +19,7 @@ const VerifyEmailPage = ({ searchParams }: PageProps) => {
         {/* Jika token tersedia dan merupakan string */}
         {token && typeof token === 'string' ? (
           <div className='grid gap-6'>
-            {/* @ts-expect-error */}
+            {/* @ts-ignore */}
             <VerifyEmail token={token} />
           </div>
         ) : (

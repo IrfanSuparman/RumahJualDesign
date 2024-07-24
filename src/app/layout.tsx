@@ -29,7 +29,7 @@ export default function RootLayout({
         )}>
         <main className='relative flex flex-col min-h-screen'>
           <Providers>
-            {/*@ts-expect-error*/}
+            {/*@ts-ignore*/}
             <Navbar />
             <div className='flex-grow flex-1'>
               {/* Menampilkan konten dari props children */}
