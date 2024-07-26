@@ -25,8 +25,8 @@ import { useRouter, useSearchParams } from 'next/navigation'
 const Page = () => {
   const searchParams = useSearchParams() // Menggunakan useSearchParams untuk mendapatkan parameter dari URL
   const router = useRouter() // Menggunakan useRouter untuk manajemen routing di Next.js
-  const isSeller = searchParams.get('as') === 'seller' // Mendapatkan informasi apakah pengguna adalah penjual
-  const origin = searchParams.get('origin') // Mendapatkan informasi origin dari parameter URL
+  const isSeller = searchParams.get('as') === 'seller'
+  const origin = searchParams.get('origin')
 
   // Fungsi untuk melanjutkan sebagai penjual
   const continueAsSeller = () => {

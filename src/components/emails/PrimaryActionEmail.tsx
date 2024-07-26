@@ -40,7 +40,7 @@ import {
               alt='DigitalHippo'
               style={logo}
             />
-            <Text style={paragraph}>Hi there,</Text>
+            <Text style={paragraph}>Hallo,</Text>
             <Text style={paragraph}>
               Selamat Datang di RumahJualDesign, Tempat terbaik untuk
               Digital Asset Berkualitas. Gunakan Link dibawah
@@ -58,8 +58,8 @@ import {
             </Text>
             <Hr style={hr} />
             <Text style={footer}>
-              If you did not request this email, you can
-              safely ignore it.
+              Jika tidak merasa meminta email verifikasi,
+              abaikan email ini.
             </Text>
           </Container>
         </Body>
