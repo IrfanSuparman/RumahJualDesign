@@ -44,8 +44,8 @@ var EmailTemplate = function (_a) {
         React.createElement(components_1.Preview, null, "Tempat Terbaik untuk Digital Asset Berkualitas."),
         React.createElement(components_1.Body, { style: main },
             React.createElement(components_1.Container, { style: container },
-                React.createElement(components_1.Img, { src: "".concat(process.env.NEXT_PUBLIC_SERVER_URL, "/hippo-newsletter-sign-up.png"), width: '150', height: '150', alt: 'DigitalHippo', style: logo }),
-                React.createElement(components_1.Text, { style: paragraph }, "Hi there,"),
+                React.createElement(components_1.Img, { src: "".concat(process.env.NEXT_PUBLIC_SERVER_URL, "/hipposignup.png"), width: '150', height: '150', alt: 'rumahjualdesign', style: logo }),
+                React.createElement(components_1.Text, { style: paragraph }, "Hallo,"),
                 React.createElement(components_1.Text, { style: paragraph },
                     "Selamat Datang di RumahJualDesign, Tempat terbaik untuk Digital Asset Berkualitas. Gunakan Link dibawah untuk ",
                     actionLabel,
@@ -57,7 +57,7 @@ var EmailTemplate = function (_a) {
                     React.createElement("br", null),
                     "RumahJualDesign team"),
                 React.createElement(components_1.Hr, { style: hr }),
-                React.createElement(components_1.Text, { style: footer }, "If you did not request this email, you can safely ignore it.")))));
+                React.createElement(components_1.Text, { style: footer }, "Jika tidak merasa meminta email verifikasi, abaikan email ini.")))));
 };
 exports.EmailTemplate = EmailTemplate;
 var PrimaryActionEmailHtml = function (props) { return (0, components_1.render)(React.createElement(exports.EmailTemplate, __assign({}, props)), { pretty: true }); };
