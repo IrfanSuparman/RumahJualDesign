@@ -67,18 +67,18 @@ export default function Home() {
         <ProductReel
           query={{ sort: 'desc', limit: 4 }}
           href='/products?sort=recent'
-          title='Brand new'
+          title='Terbaru di Upload'
         />
 
         <ProductReel
           query={{ sort: 'desc', limit: 4 }}
-          href='/products?sort=recent'
+          href='/products?sort=icons'
           title='Icon'
         />
 
         <ProductReel
           query={{ sort: 'desc', limit: 4 }}
-          href='/products?sort=recent'
+          href='/products?sort=uikits'
           title='UI Kits'
         />
       </MaxWidthWrapper>
