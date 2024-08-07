@@ -71,15 +71,15 @@ export default function Home() {
         />
 
         <ProductReel
-          query={{ sort: 'desc', limit: 4 }}
-          href='/products?sort=icons'
-          title='Icon'
+          query={{ sort: 'desc', limit: 4, category:'icons' }}
+          href='/products?category=icons&sort=desc'
+          title='Kumpulan Icon'
         />
 
         <ProductReel
-          query={{ sort: 'desc', limit: 4 }}
-          href='/products?sort=uikits'
-          title='UI Kits'
+          query={{ sort: 'desc', limit: 4, category:'ui_kits' }}
+          href='/products?category=ui_kits&sort=desc'
+          title='Kumpulan UI Kits'
         />
       </MaxWidthWrapper>
 

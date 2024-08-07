@@ -148,7 +148,7 @@ const Page = async ({ params }: PageProps) => {
       <ProductReel
         href='/products'
         query={{ category: product.category, limit: 5 }}
-        title={`Similar ${label}`}
+        title={`Produk Serupa ${label}`}
         subtitle={`Pencarian yang sama berkualitas ${label} seperti '${product.name}'`}
       />
     </MaxWidthWrapper>
