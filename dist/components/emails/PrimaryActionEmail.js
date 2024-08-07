@@ -44,7 +44,6 @@ var EmailTemplate = function (_a) {
         React.createElement(components_1.Preview, null, "Tempat Terbaik untuk Digital Asset Berkualitas."),
         React.createElement(components_1.Body, { style: main },
             React.createElement(components_1.Container, { style: container },
-                React.createElement(components_1.Img, { src: "".concat(process.env.NEXT_PUBLIC_SERVER_URL, "/hippo-email-sent.png"), width: '150', height: '150', alt: 'rumahjualdesign', style: logo }),
                 React.createElement(components_1.Text, { style: paragraph }, "Hallo,"),
                 React.createElement(components_1.Text, { style: paragraph },
                     "Selamat Datang di RumahJualDesign, Tempat terbaik untuk Digital Asset Berkualitas. Gunakan Link dibawah untuk ",

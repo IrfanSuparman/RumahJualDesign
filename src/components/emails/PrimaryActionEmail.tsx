@@ -33,13 +33,6 @@ import {
         </Preview>
         <Body style={main}>
           <Container style={container}>
-            <Img
-              src={`${process.env.NEXT_PUBLIC_SERVER_URL}/hippo-email-sent.png`}
-              width='150'
-              height='150'
-              alt='rumahjualdesign'
-              style={logo}
-            />
             <Text style={paragraph}>Hallo,</Text>
             <Text style={paragraph}>
               Selamat Datang di RumahJualDesign, Tempat terbaik untuk
